@@ -1,0 +1,73 @@
+* {font-size: 14px; margin: 0; padding: 0; outline: none; font-family: roboto; text-decoration: none;}
+
+body {background: #f1f1f1;}
+
+	input[type=text],input[type=time],input[type=tel],input[type=email],input[type=date],input[type=password],textarea {width: 100%; border: 1px solid rgba(0,0,0,.2); padding: 10px;}
+	input[type=submit] {cursor: pointer; display: inline-block; background: #494a4c; border: none; border-radius: 20px; padding: 5px 20px; color: white;}
+	textarea {resize: vertical;}
+	input[type=submit]:hover {background: #e84c3d;}
+
+.aligner {max-width: 1320px; min-width: 800px; margin: 0 auto; padding-left: 10px; padding-right: 10px;}
+
+/*              ÿ¿œ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿?*/
+.nav_top {background: #494a4c;} 
+	.logon {padding: 20px; color: #f1f1f1; text-decoration: underline; display: inline-block;}
+		.logon:hover {color: #fff;}
+	.icon_panel {}
+	
+.logo {height: 450px; background-image: url('../img/bg.jpg'); background-repeat: no-repeat; background-color: white; background-position: center;background-size: cover;}
+
+	.logo a {display: inline-block; color: #777; background: #fff; margin-top: 25px; width: 200px; height: 150px; margin-left: 10px; line-height: 250px; font-size: 16px; border: 10px solid #bbb;}
+	
+	
+/*                          –Â„ËÒÚ‡ˆËˇ                      */
+.logon_content {background-image: url('../img/bg_reg.jpg'); background-repeat: no-repeat; background-color: white; background-position: center;background-size: cover;} 
+
+
+/*               ¨±¨°¨Ø¨¶¨≠¨æ                    */
+
+.frm { float: right; width: 400px; margin-top: 30px;}
+	.frm_title {font-size: 32px; padding-left: 10px; text-shadow: 0 2px 3px rgba(0,0,0,.3); font-weight: 100; color: white;}
+.auth, .reg {background: #fff; width: 400px; border-radius: 2px; box-shadow: 0 2px 3px rgba(0,0,0,.3);}
+
+/*               ¨±¨‚¨‡¨Ê¨⁄¨›¨Ó                    */
+
+.card {background: #fff; border-radius: 2px; box-shadow: 0 2px 3px rgba(0,0,0,.3);}
+	.exit {cursor: pointer; display: inline-block; background: #494a4c; border: none; border-radius: 20px; padding: 5px 20px; color: white;}
+	.exit:hover {background: #e84c3d;}
+	
+	
+/*                       ¿ÛÍˆËÓÌ˚                                  */
+
+.create_auct {padding: 10px; background: #d53222; font-size: 16px; padding: 20px 40px; display: inline-block; border-radius: 10px; margin: 10px auto; text-align: center;  color: white;}
+	.create_auct_title {background: #d53222; padding: 20px; font-size: 18px;  color: white;}
+
+.auction_form {width: calc(25% - 20px); margin: 10px; background: white; display: inline-table; box-shadow: 0 2px 3px rgba(0,0,0,.3);}
+	.auction_form_title {background: #d53222; padding: 20px; font-size: 18px;  color: white;}
+	.auction_form_pic { height: 250px; }
+	.auction_form_time {font-size: 16px; padding: 10px; text-align: center; padding-bottom: 0;}
+		.auction_form_time b {font-size: 16px;}
+	.auction_form_stavka {display: inline-block; margin: 10px; border-radius: 100px; padding: 10px 20px; background: #888; color: white; align: center;}
+	.auction_form_link {background: #d53222; padding: 10px 40px; margin-bottom: 10px; display: inline-block; font-size: 14px; color: white; border-radius: 20px;}
+	
+.left_auction {width: 60%; float: left;}
+	.left_auction_title {padding: 10px; background: #555; color: #fff;}
+	.left_auction_desc {padding: 10px; background: #fff; color: #222;}
+	
+.right_auction {background: #333; width: 40%; float: right;}
+	.right_auction_coins {padding: 10px; color: #eee; text-align: center;}
+	.right_auction_counter {display: inline-block;margin-bottom: 10px; border-radius: 100px; background: #888; padding: 10px 20px; background: #888; color: white; align: center;}
+	.right_auction_stavka {display: inline-block; margin: 10px; border-radius: 100px; padding: 10px 30px; background: #555; color: white; align: center;}
+	.right_auction_button {padding: 10px 50px !important; background: #d53222 !important;}
+	
+	.userlist {margin: 10px; background: rgba(0,0,0,.2); margin-bottom: 0;}
+		.userlist_user {padding: 5px; border-bottom: 1px rgba(255,255,255,.1) dotted;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
